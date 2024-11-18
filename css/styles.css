@@ -1,0 +1,597 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+	font-family: "Roboto", sans-serif;	
+    width: 100%;
+}
+
+a{
+    color:black;
+}
+
+.main{
+	width: 100%;
+}
+
+.header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 79px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px lightgray;
+    align-items: center;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+.menu-div>ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-right: 200px;
+}
+
+.menu-div>ul>li{
+   text-transform: uppercase; 
+   padding: 3%;
+   font-size: 13px;
+   font-weight: 600;
+   display: flex;
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+    background-color:#f5f5f5 ;
+    flex-basis: 35%;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+
+.search{
+    border: 0px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    width: 100%;
+}
+
+.personalised-menu-container{
+    display: flex;
+    flex-basis: 10%;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    align-items: center;
+    
+}
+
+.personalised-menu-container div p{
+    font-size: small;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.head-img{
+    padding-top: 40px;
+    width: 100%;
+}
+
+.menu-div ul li p{
+    color: red;
+    font-size: 11px;
+}
+
+.captalize{
+    text-transform: uppercase;
+}
+
+
+.heading{
+    font-size: 28px;
+    letter-spacing: 3.5px;
+    padding: 50px;
+
+}
+
+.first-photo-album {
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.third-photo-album{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-photo-album img{
+    width: 16.66%;
+    flex-grow: 1;
+}
+
+.third-photo-album img{
+    width: 16.6%;
+    
+}
+
+.small{
+    font-size: 11px;
+}
+
+.row1{
+    display: flex;
+    line-height: 20px;
+    
+}
+
+.col1{
+    width: 15%
+}
+
+.col2{
+    width: 15%;
+}
+.col3{
+    width: 35%;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.text-body{
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.col3 div img{
+    width: 40%;
+    height: 10%;
+}
+
+.col3 .socials img{
+    width:5%;
+    height: .25%;
+    padding:4px;    
+}
+
+.stamp-container{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+.col4{
+    width: 30%;
+}
+
+.col4 img{
+    width: 40px;
+    height: 35px;
+}
+.stamp-text{
+    font-size: 12px;
+    padding-left: 4px;
+    padding-top: 2px;
+    word-wrap: break-word;
+    
+}
+.stamp-text span{
+    font-weight: 500;
+
+}
+
+.line{
+    display: flex;
+}
+
+
+.line div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+.line hr{
+    border-color: rgb(255, 255, 255);
+}
+
+.light{
+    color: rgb(173, 154, 154);
+}
+
+.line-height{
+    line-height: 20px;
+    font-size: 11.5px;
+}
+
+.blue{
+    color: rgb(9, 9, 141);
+    font-size: small;
+}
+
+.rights-reserved{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.hr{
+    margin:10px 0px;
+}
+
+
+.registered{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registered p{
+    padding: 5px;
+    line-height: 15px;
+}
+
+.registered .para{
+   padding-top: 60%;
+
+}
+
+.space{
+    padding-top: 10px;
+}
+
+ol li{
+    font-size: 11px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: rgb(122, 112, 112);
+    list-style: none;
+}
+
+
+.padding{
+    padding-left: 30px;
+    font-size: 11px;
+
+}
+
+.boldless{
+    font-weight: normal;
+}
+
+
+.bell_icon{
+    width: 25px;
+    height: 28px;
+    
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    right: 50px;
+    bottom: 180px;
+}
+
+.facebook{
+    width: 25px;
+    height: 28px;
+    
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    right: 50px;
+    bottom: 220px;
+}
+
+
+.whatsapp{
+    width: 25px;
+    height: 28px;
+    
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: green;
+    display: flex;
+    position: fixed;
+    right: 50px;
+    bottom: 260px;
+}
+
+
+.telegram{
+    width: 25px;
+    height: 28px;
+    
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgb(63, 111, 194);
+    display: flex;
+    position: fixed;
+    right: 50px;
+    bottom:300px;
+}
+
+
+.sub-menu{
+    position: absolute;
+    display: flex;
+    background-color: #ffffff;
+    top: 100px;
+    max-height: 400px;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition:1s;
+    
+}
+
+.sub-menu ul{
+    list-style: none;
+    padding: 20px;
+    padding: 0px 20px;
+    
+}
+
+.women:hover .line-div-mg{
+    opacity: 1;
+}
+
+.women:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+   
+}
+
+.men:hover .line-div-or{
+    opacity: 1;
+}
+
+.men:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+   
+}
+
+.home-living:hover .line-div-oc{
+    opacity: 1;
+}
+
+.home-living:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+   
+}
+.line-div{
+    background-color: rgb(128,128,128, 0.1);
+    height: 1px;
+    margin: 10px 0px;
+}
+
+
+.line-div-mg{
+    background-color: magenta;
+    height: 5px;
+    width: 50px;
+    margin: 6px 0px;
+    top: 75px;
+    opacity: 0;
+    position: absolute;
+}
+
+
+.line-div-or{
+    background-color: #f15511;
+    height: 5px;
+    width: 50px;
+    margin: 6px 0px;
+    top: 75px;
+    opacity: 0;
+    position: absolute;
+}
+
+.line-div-oc{
+    background-color: #bc9f4f;
+    height: 5px;
+    width: 100px;
+    margin: 6px 0px;
+    top: 75px;
+    opacity: 0;
+    position: absolute;
+}
+
+.sub-menu ul li{
+    font-size: 10px;
+}
+
+.captlize{
+    text-transform: capitalize;
+}
+
+.bg-grey{
+    background-color: rgb(250, 247, 247);
+}
+
+.heading-mag{
+    color: magenta;
+    font-weight: 700;
+    padding: px 0px;
+}
+
+.heading-or{
+    color: #f15511;
+    font-weight: 700;
+    padding: px 0px;
+}
+
+
+.heading-oc{
+    color: #bc9f4f;
+    font-weight: 700;
+    padding: px 0px;
+}
+.space-bottom{
+    margin-bottom: 20px;
+}
+
+
+
+
+.top-brand {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-brand img {
+    width: 20%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.bag {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bag img {
+    width: 16.66%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.western {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.western img {
+    width: 20%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+
+.luxe {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.luxe img {
+    width: 16.66%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.best {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best img {
+    width: 25%;
+    
+}
+
+.body-furn{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.right{ 
+    width: 10%;
+    text-align: left;
+}
+
+.left{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.left-section img{
+    width: 48.5%;
+    padding: 0px 0px 0px 20px;
+    box-sizing: border-box;
+}
+
+.inspired{
+    width: 100%;
+}
+
+.inspired img{
+    width: 100%;
+}
+
+.hori{
+    display: flex;
+}
+
+.hori img{
+    padding: 0px 20px;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.horiz{
+    display: flex;
+}
+
+.horiz img{
+    padding: 0px 20px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.extreme{
+    font-size: 50px;
+    margin: 40px;
+}

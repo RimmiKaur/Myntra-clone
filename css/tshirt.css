@@ -1,0 +1,253 @@
+.t-shirt-body{
+    width: 100%;
+    padding: 2% 10%;
+    box-sizing: border-box;
+}
+
+.line-div-section-1{
+    width: 100%;
+    background-color: rgb(128,128,128, 0.1);
+    height: 1px;
+    margin: 10px 0px;
+}
+
+*{
+    font-size: 11px;
+}
+
+ul{
+    list-style: none;
+}
+
+.filter-container{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.drop-down{
+    display: flex; 
+}
+
+input{
+    margin: 8px 0px 5px 9px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.bundle{
+    width:8.5%;
+}
+
+.bundles{
+    margin-right:-2%;
+}
+
+
+
+
+
+.filter{
+    width:20%;
+}
+.recommended{
+    margin-left: 40%;
+}
+
+.bundle:hover .bundles-dropdown{
+    display: block;
+
+    
+}
+
+
+.country:hover .countries{
+    display: block;
+
+    
+}
+.size{
+
+    width:100%;
+    position: absolute;
+    top: 10px;
+    left:19.5%;
+    
+    display: none;
+    /* background-color: #ccc; */
+}
+.sizes{
+    border: 1px solid red;
+}
+.sizes:hover .size{
+    
+    display: block;
+    
+}
+
+input{
+    margin-right: 5px;
+}
+
+.brand{
+    margin-right: 70%;
+}
+
+.second-row-1{
+    display: flex;
+    width:100%;
+}
+
+.third-col{
+    width:85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.first-col-line{
+    width: 15%;
+}
+
+.vertical-line{
+    width: 1px;
+    background-color: rgb(128,128,128, 0.1);
+    
+}
+
+
+#myRange{
+    width: 80%;
+    height: 2px;
+    color: blanchedalmond;
+}
+
+
+.color-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0px 5px;
+}
+
+.img-shirt{
+    width:180px;
+    
+}
+
+.img-container{
+    width:190px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+}
+
+.details{
+    padding: 2% 5%;
+    box-sizing: border-box;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.wishlist{
+    position: absolute;
+    bottom:10px;
+    left:0px;
+    background-color: white ;
+    width:100%;
+    padding: 0% 10%;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.orange{
+    color: orange;
+}
+
+.img-container:hover .wishlist {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.star{
+    position: absolute;
+    bottom: 70px;
+    left:20px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wishlist button{
+    border:1px solid black;
+    background-color: rgb(0,0,0,0);
+    padding:5% 35%;
+    color: black;
+    margin: 10px 0px;
+}
+
+.page-number{
+    font-size: 13px;  
+    font-weight: normal;  
+    margin-left: 400px;
+    margin: auto;
+    margin: 50px auto;
+}
+
+
+.page-number button{
+    padding: 5px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid rgb(0,0,0,0.4);
+    border-radius: 5px;
+
+}
+
+.page-number span{
+    font-size: 11px;
+    font-weight: lighter;
+    
+}
+
+.dark{
+    color: rgb(152, 149, 149);
+}
+
+.tshirt-footer{
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    padding: 2% 27.5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.th-col{
+    flex-basis: 45%;
+    margin-left: 10px; 
+}
+.sec-col{
+    flex-basis: 100%;
+    margin-left: 100px;
+}
+.footer-text{
+    flex-basis: 60%;
+}
+
+.margin-left-buy{
+    margin-left: 200px;
+    font-size:13px;
+}
+
+.end{
+    display: flex;
+}
